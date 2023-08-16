@@ -45,10 +45,11 @@ jobs:
         with:
           go-version: '1.21'
           check-latest: true
-      - name: start build newsletter
-        run: go version
-             hugo new -k page newsletter/$(date +"%Y-%m-%d").md
-             go run main.go
-             git version
-             git clone https://github.com/yifu-yang/HackerNewsBot.git ../HackerNewsBot
+      - name: generate page
+        run: hugo new -k page newsletter/$(date +"%Y-%m-%d").md
+      - name: clone lib
+        run: git clone https://github.com/yifu-yang/HackerNewsBot.git ../HackerNewsBot
+      - name: get HN content
+        run: go run main.go
+      
 
