@@ -17,7 +17,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Cottage of blackjack
-  description: "face to th e sea, read books"
+  description: "face to the sea, read books"
   keywords: [Blog, Portfolio, PaperMod]
   author: blackjack
   # author: ["Me", "You"] # multiple authors
