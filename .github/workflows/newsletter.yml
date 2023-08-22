@@ -50,6 +50,6 @@ jobs:
       - name: clone lib
         run: git clone https://github.com/yifu-yang/HackerNewsBot.git ../HackerNewsBot
       - name: get HN content
-        run: go run main.go
+        run: go run main.go content/newsletter/$(date +"%Y-%m-%d").md
       
 
