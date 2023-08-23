@@ -51,5 +51,6 @@ jobs:
         run: git clone https://github.com/yifu-yang/HackerNewsBot.git ../HackerNewsBot
       - name: get HN content
         run: go run main.go content/newsletter/$(date +"%Y-%m-%d").md
-      
+      - name: commit newsletter
+        run: git add * && git commit -m  $(date +"%Y-%m-%d") && git push
 
