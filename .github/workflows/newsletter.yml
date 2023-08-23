@@ -53,4 +53,10 @@ jobs:
         run: go run main.go content/newsletter/$(date +"%Y-%m-%d").md
       - name: commit newsletter
         run: git add * && git commit -m  $(date +"%Y-%m-%d") && git push
-
+      - name: commit newsletter
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: yifu-yang
+          author_email: 576843117@qq.com
+          message: $(date +"%Y-%m-%d")
+          add: '*'
