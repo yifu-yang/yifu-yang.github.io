@@ -92,8 +92,8 @@ func prepareNewsLetterText(items []HackerNewsBot.Item) []string {
 	var l []string
 	for i := 0; i < len(items); i++ {
 		l = append(l, strings.Join([]string{"##", strconv.Itoa(i+1) + ".", items[i].Title}, " "))
-		l = append(l, items[i].Text)
-		l = append(l)
+		l = append(l, items[i].By+":"+items[i].Text)
+		l = append(l, "[原文链接]("+items[i].URL+")")
 	}
 	return l
 }
