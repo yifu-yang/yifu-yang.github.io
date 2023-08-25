@@ -20,7 +20,7 @@ defaults:
 
 jobs:
   # Build job
-  geenrate:
+  generate:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.114.0
