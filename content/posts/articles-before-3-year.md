@@ -3,7 +3,7 @@ title: "过去三年读过的一些有趣文章"
 date: 2025-08-10T14:12:00+08:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["archive"]
+tags: ["blog"]
 author: "blackjack"
 # author: ["Me", "You"] # multiple authors
 showToc: true
