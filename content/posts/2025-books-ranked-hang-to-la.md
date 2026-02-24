@@ -1,26 +1,38 @@
 ﻿---
 title: "2025读书复盘：从夯到拉，我会把这6本书这样排"
 date: 2026-02-24T22:25:00+08:00
-tags: ["archive", "reading"]
+# weight: 1
+# aliases: ["/first"]
+tags: ["blog"]
 author: "blackjack"
+# author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-canonicalURL: ""
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
 disableShare: false
+disableHLJS: false
 hideSummary: false
-searchHidden: false
+searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
+ShowRssButtonInSectionTermList: true
 UseHugoToc: true
+cover:
+    image: "<image path/url>" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
 editPost:
     URL: "https://github.com/yifu-yang/yifu-yang.github.io/content"
-    Text: "Suggest Changes"
-    appendFilePath: true
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
 
 今年回看 2025 年读过的 6 本书，如果按我个人体感从“夯”到“拉”排，不看名气，只看当时读完后的冲击和余味，大概是下面这个顺序。
@@ -73,3 +85,4 @@ editPost:
 我现在更偏爱两类书，一类是能直接改变思考方式的，一类是能帮助理解复杂现实结构的。
 
 至于“拉”的书，也不是白读。它们像反向路标，告诉我时间该投到哪里，才最值。
+
